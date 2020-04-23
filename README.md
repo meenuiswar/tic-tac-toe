@@ -1,12 +1,10 @@
 ## TIC-TAC-TOE
 
----
-
 This is basically a web application for a two-player game of tic-tac-toe or X's and O's. Each player has their turn alternatively, and the first player to get three symbols in a row wins. There is also an option for undo, redo and reset at any point in the game.
 
----
-
 This web-app has been implemented using react and redux.
+
+---
 
 ### Packages used:
 
