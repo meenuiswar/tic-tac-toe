@@ -34,6 +34,7 @@ class Board extends Component {
       <Square
         value={this.props.currentState.squares[i]}
         onClick={() => this.onClick(i)}
+        index={i}
       />
     );
   }
@@ -55,7 +56,7 @@ class Board extends Component {
     }
     return (
       <div className="game marginTop">
-        <h1>TIC-TAC-TOE</h1>
+        <div className="heading">TIC-TAC-TOE</div>
         <div className="status">{status}</div>
         <div className="board">
           <div className="board-row">
@@ -75,14 +76,21 @@ class Board extends Component {
           </div>
         </div>
         <div class="buttons">
-          <button onClick={this.props.onUndo} disabled={!this.props.canUndo}>
+          <button
+            className="buttonStyle"
+            onClick={this.props.onUndo}
+            disabled={!this.props.canUndo}
+          >
             Undo
           </button>
-          <button className="marginLeft" onClick={() => this.reset()}>
+          <button
+            className="buttonStyle marginLeft"
+            onClick={() => this.reset()}
+          >
             Reset
           </button>
           <button
-            className="marginLeft"
+            className="buttonStyle marginLeft"
             onClick={this.props.onRedo}
             disabled={!this.props.canRedo}
           >

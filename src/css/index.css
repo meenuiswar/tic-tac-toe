@@ -1,6 +1,5 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
 }
 
 .board {
@@ -15,20 +14,67 @@ body {
 
 .status {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 24px;
+  color: red;
 }
 
 .square {
   background: #fff;
-  border: 1px solid #999;
   float: left;
+  border: none;
   font-size: 36px;
   font-weight: bold;
-  line-height: 34px;
-  height: 60px;
-  padding: 0;
+  height: 100px;
+  width: 100px;
   text-align: center;
-  width: 60px;
+  padding: 0;
+}
+
+.heading {
+  font-size: 52px;
+  font-weight: bold;
+  color: teal;
+}
+
+.buttonStyle {
+  background-color: transparent;
+  border: 1px solid teal;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: teal;
+}
+
+.buttonStyle:hover {
+  background-color: teal;
+  color: #fff;
+}
+.border0 {
+  border-bottom: 5px solid teal;
+  border-right: 5px solid teal;
+}
+.border1 {
+  border-bottom: 5px solid teal;
+}
+.border2 {
+  border-bottom: 5px solid teal;
+  border-left: 5px solid teal;
+}
+.border3 {
+  border-bottom: 5px solid teal;
+  border-right: 5px solid teal;
+}
+.border4 {
+  border-bottom: 5px solid teal;
+}
+.border5 {
+  border-left: 5px solid teal;
+  border-bottom: 5px solid teal;
+}
+.border6 {
+  border-right: 5px solid teal;
+}
+.border8 {
+  border-left: 5px solid teal;
 }
 
 .game {
@@ -37,7 +83,7 @@ body {
   align-items: center;
 }
 .marginTop {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .marginLeft {
   margin-left: 1rem;
