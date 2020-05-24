@@ -2,7 +2,7 @@
   "name": "tic-tac-toe-redux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://meenuiswar.github.io/tic-tac-toe/public/",
+  "homepage": "http://meenuiswar.github.io/tic-tac-toe/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
