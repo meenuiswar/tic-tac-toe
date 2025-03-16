@@ -4,6 +4,8 @@ This is basically a web application for a two-player game of tic-tac-toe or X's 
 
 This web-app has been implemented using react and redux.
 
+live demo: https://meenuiswar.github.io/tic-tac-toe/
+
 ---
 
 ### Packages used:
